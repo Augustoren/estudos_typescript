@@ -43,3 +43,8 @@ function logger(): void {
 // null / undefined
 type TipoNovo = string | undefined
 let variable: null
+
+// never (Nunca retorna)
+function error(): never {
+  throw new Error('Novo erro')
+}

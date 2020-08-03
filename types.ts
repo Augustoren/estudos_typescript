@@ -48,3 +48,9 @@ let variable: null
 function error(): never {
   throw new Error('Novo erro')
 }
+
+// object 
+let cart: object
+cart = {
+  key: 'value'
+}

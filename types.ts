@@ -39,3 +39,7 @@ coisa = true || 3 || 'text' || [1, 2, 3] || { chave: "valor" }
 function logger(): void {
   console.log('foo')
 }
+
+// null / undefined
+type TipoNovo = string | undefined
+let variable: null

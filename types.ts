@@ -34,3 +34,8 @@ enum Colors {
 // any
 let coisa: any
 coisa = true || 3 || 'text' || [1, 2, 3] || { chave: "valor" }
+
+// void (vazio)
+function logger(): void {
+  console.log('foo')
+}

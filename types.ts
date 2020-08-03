@@ -30,3 +30,7 @@ enum Colors {
   white = '#fff',
   black = '#000'
 }
+
+// any
+let coisa: any
+coisa = true || 3 || 'text' || [1, 2, 3] || { chave: "valor" }

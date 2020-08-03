@@ -24,3 +24,9 @@ values = [1, 2, 3, 4]
 // tuple
 let title: [number, string, string]
 title = [1, "foo", "bar"]
+
+// enum
+enum Colors {
+  white = '#fff',
+  black = '#000'
+}

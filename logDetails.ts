@@ -8,7 +8,7 @@ function logDetails(uid: Uid, item: string) {
 }
 
 function logInfo(uid: Uid, user: string) {
-  console.log(`A product with ${uid} has a title as ${item}`)
+  console.log(`A product with ${uid} has a title as ${user}`)
 }
 
 type Platform = "Windows" | "Linux" | "Mac Os"
@@ -17,7 +17,6 @@ function renderPlatform(platform: Platform) {
   return platform
 }
 
-renderPlatform("Augusto")
 renderPlatform("Windows")
 
 logDetails(123, "sapato")

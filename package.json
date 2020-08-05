@@ -4,6 +4,7 @@
   "description": "Meus estudos sobre typescript. Repositório para consulta sobre código typescript.",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only classes.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Augustoren/estudos_typescript/issues"
   },
-  "homepage": "https://github.com/Augustoren/estudos_typescript#readme"
+  "homepage": "https://github.com/Augustoren/estudos_typescript#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.56"
+  },
+  "dependencies": {
+    "ts-node": "^8.10.2"
+  }
 }

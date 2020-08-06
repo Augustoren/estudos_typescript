@@ -9,3 +9,11 @@ var tlou = {
         console.log(title);
     }
 };
+var CreateGame = /** @class */ (function () {
+    function CreateGame(t, d, g) {
+        this.title = t;
+        this.description = d;
+        this.genre = g;
+    }
+    return CreateGame;
+}());

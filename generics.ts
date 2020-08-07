@@ -19,3 +19,5 @@ console.log(newState.getState())
 
 newState.setState(123)
 console.log(newState.getState())
+
+// Generics
